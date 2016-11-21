@@ -2,7 +2,7 @@
 
 instruction to connect with DataBase:
 
-//Start
+
 show tables; 
 create database exercise;
 use exercise;
@@ -10,7 +10,7 @@ create table giphy (id varchar(30) primary key, likes int(10), dislikes int(10))
 drop table giphy;
 desc giphy;
 select * from giphy;
-//end
+
 
 For main application open:
  	src/main/java/justyna/giphy -> GiphyWindow.java
