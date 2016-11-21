@@ -1,22 +1,9 @@
 # Giphy_Connector
-
-instruction to connect with DataBase:
-
-
-show tables; 
-
+to create DataBase (MySQL):
 create database exercise;
 
-use exercise;
-
+to create table:
 create table giphy (id varchar(30) primary key, likes int(10), dislikes int(10));
-
-drop table giphy;
-
-desc giphy;
-
-select * from giphy;
-
 
 
 For main application open:
@@ -29,6 +16,4 @@ For main application open:
   
   Please enter the url for the database in line 32: 
   
-      static {
-        URL = "jdbc:mysql://localhost:3306/exercise?autoReconnect=true&useSSL=false";
-      }
+      private static final String URL = "jdbc:mysql: PLEASE ENTER YOUR URL";
